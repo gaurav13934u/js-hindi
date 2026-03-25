@@ -19,3 +19,12 @@ console.log(typeof bigNumber); //typeof is used to find out the datatype of any 
 //ytpeof value of given datatype = Undefined --> "undefined" , Null -->"Object" , 
 //boolean -->"boolean", Number--> "number", String--> "string"  object(native and does not implement[[Call]])--->"object",
 //object(native or host and does implement [[Call]])-->"function", object(native and does not implement[[Call]])-->"implementation-defined except may not be "undefined","boolean", "number",or "string".
+
+//-------------------------------------------------------------------------------------------//
+//Stack (Primitive), Heap ( Non-primitive)
+let myYoutubename = "Gaurav"
+
+let anothername = myYoutubename
+anothername = "Gauravkumar"
+console.log(anothername);
+console.log(myYoutubename);
